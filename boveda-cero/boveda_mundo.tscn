@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://38udeukx2y1e"]
+
+[ext_resource type="Texture2D" uid="uid://dajwwiafv6lqx" path="res://boveda-cero-256x240.png" id="1_gmyg6"]
+[ext_resource type="PackedScene" uid="uid://2acpgpeo5lj7" path="res://BovedaRecursos.tscn" id="2_4btgx"]
+[ext_resource type="PackedScene" uid="uid://sbasjflocsjp" path="res://caja_bebidas.tscn" id="3_4btgx"]
+
+[node name="BovedaMundo" type="Node2D" unique_id=1966903975]
+
+[node name="Fondo" type="Sprite2D" parent="." unique_id=309640253]
+position = Vector2(128, 120)
+texture = ExtResource("1_gmyg6")
+
+[node name="BovedaRecursos" parent="." unique_id=1277513532 instance=ExtResource("2_4btgx")]
+
+[node name="CajaBebidas" parent="." unique_id=198373731 instance=ExtResource("3_4btgx")]
+position = Vector2(104, 194)

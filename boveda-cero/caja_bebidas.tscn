@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://sbasjflocsjp"]
+
+[ext_resource type="Script" uid="uid://d3tspi06grdrg" path="res://caja_bebidas.gd" id="1_76ki3"]
+[ext_resource type="Texture2D" uid="uid://bcgvfmlv2wjtg" path="res://CajaBebidas.png" id="1_mj4ns"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ojnr2"]
+size = Vector2(16, 16)
+
+[node name="CajaBebidas" type="Area2D" unique_id=198373731]
+script = ExtResource("1_76ki3")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=755393027]
+texture = ExtResource("1_mj4ns")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1632914526]
+shape = SubResource("RectangleShape2D_ojnr2")
