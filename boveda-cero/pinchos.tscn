@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://djorldwc45n40"]
+
+[ext_resource type="Script" uid="uid://m0j02b5oicrb" path="res://pinchos.gd" id="1_i3k25"]
+[ext_resource type="Texture2D" uid="uid://dpjghtjeuehu7" path="res://pinchos.png" id="1_kofkl"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sxhfh"]
+size = Vector2(16, 16)
+
+[node name="Pinchos" type="Area2D" unique_id=1330257430]
+script = ExtResource("1_i3k25")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1225961274]
+texture = ExtResource("1_kofkl")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=608948276]
+shape = SubResource("RectangleShape2D_sxhfh")

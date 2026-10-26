@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://ov5dbp4ty2gg"]
+
+[ext_resource type="Script" uid="uid://dhscbgnhq5tq3" path="res://demoledor.gd" id="1_w157e"]
+[ext_resource type="Texture2D" uid="uid://bojib5reski2i" path="res://demoledor-15x15.png" id="1_yjqp2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_luoaq"]
+size = Vector2(14, 16)
+
+[node name="Demoledor" type="CharacterBody2D" unique_id=2141818153]
+script = ExtResource("1_w157e")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1387941294]
+texture = ExtResource("1_yjqp2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=881490067]
+position = Vector2(1, 0)
+shape = SubResource("RectangleShape2D_luoaq")

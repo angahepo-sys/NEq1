@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://bcnb12xwx3a2i"]
+
+[ext_resource type="Script" uid="uid://cdor07b264yo3" path="res://ladron.gd" id="1_bex8k"]
+
+[node name="Ladron" type="CharacterBody2D" unique_id=324002666]
+script = ExtResource("1_bex8k")

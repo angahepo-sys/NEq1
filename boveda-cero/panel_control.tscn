@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://dso6fv04kwca3"]
+
+[ext_resource type="Script" uid="uid://dbqj0umdwdbod" path="res://panel_control.gd" id="1_pr44c"]
+
+[node name="PanelControl" type="Control" unique_id=1638277715]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_pr44c")
+
+[node name="LblSalud" type="Label" parent="." unique_id=703917257]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 22.0
+offset_right = 111.0
+offset_bottom = 45.0
+text = "Salud: 100"
+
+[node name="LblStamina" type="Label" parent="." unique_id=1775814229]
+layout_mode = 0
+offset_left = 147.0
+offset_top = 23.0
+offset_right = 253.0
+offset_bottom = 46.0
+text = "Stamina: 100"
